@@ -5,14 +5,14 @@ descuento_aplicado = False
 while True:
   print("-----DELIVERY SUSHI-----")
   print("""
-     _________________________________________
-    |    1.- Pikachu Roll      |$4500         |
-    |    2.- Otaku Roll        |$5000         |
-    |    3.- Pulpo Venenoso Roll |$5200       |
-    |    4.- Anguila Eléctrica Roll |$4800    |
-    |_________________________________________|
+     ___________________________________________
+    |    1.- Pikachu Roll      |$4500 CLP       |
+    |    2.- Otaku Roll        |$5000 CLP       |
+    |    3.- Pulpo Venenoso Roll |$5200 CLP     |
+    |    4.- Anguila Eléctrica Roll |$4800 CLP  |
+    |_________________________________________  |
     """)
-  opcion = input("Elija una opción (1-4): ")
+  opcion = input("Elija una opción del 1 a 4): ")
     
     if opcion == "1" or opcion == "2" or opcion == "3" or opcion == "4":
 
