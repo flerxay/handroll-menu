@@ -42,7 +42,7 @@ if codigo_descuento.lower() == "soytuakki" and not descuento_aplicado:
     total_pedido *= 0.9
     descuento_aplicado = True
 else:
-    print("Código incorrecto o no ix    ngresado.")
+    print("Código incorrecto o no ingresado.")
 
 print(f"El total de su pedido es: ${total_pedido}")
     
